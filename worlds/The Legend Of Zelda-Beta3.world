@@ -1,0 +1,2567 @@
+{
+  "config": {
+    "name": "The Legend Of Zelda.world",
+    "packages": [],
+    "resources": [],
+    "capacity": 10,
+    "game": "worldbuilder_v2",
+    "players": {
+      "player_1": {
+        "displayName": "Player 1",
+        "password": ""
+      },
+      "player_2": {
+        "displayName": "Player 2",
+        "password": ""
+      },
+      "player_3": {
+        "displayName": "Player 3",
+        "password": ""
+      },
+      "player_4": {
+        "displayName": "Player 4",
+        "password": ""
+      },
+      "player_5": {
+        "displayName": "Player 5",
+        "password": ""
+      },
+      "player_6": {
+        "displayName": "Player 6",
+        "password": ""
+      },
+      "player_7": {
+        "displayName": "Player 7",
+        "password": ""
+      },
+      "player_8": {
+        "displayName": "Player 8",
+        "password": ""
+      }
+    }
+  },
+  "cache": [],
+  "owner": "localhost",
+  "players": {
+    "localhost": {
+      "name": "localhost",
+      "_t": "p",
+      "rank": 1
+    }
+  },
+  "_euid": 10,
+  "entities": {
+    "1": {
+      "_t": "b",
+      "info": {
+        "name": {
+          "current": "Game Board"
+        }
+      },
+      "bc": "rgb(34,34,34,0.5)",
+      "c": "rgb(34,34,34,0.5)",
+      "sheets": [
+        {
+          "legal": {
+            "name": "Thanks to Blue Sword Games!",
+            "img": "/content/bluesword/bluesword.jpg",
+            "href": "https://www.patreon.com/blueswordgames"
+          },
+          "i": "/content/bluesword/ground.png",
+          "p": 0,
+          "gW": 64,
+          "gH": 64,
+          "w": 512,
+          "h": 512,
+          "objs": [
+            {
+              "i": 3,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128,
+              "s": 0
+            },
+            {
+              "i": 0,
+              "gW": 1,
+              "gH": 3,
+              "w": 64,
+              "h": 192,
+              "s": 0
+            },
+            {
+              "i": 1,
+              "gW": 2,
+              "gH": 3,
+              "w": 128,
+              "h": 192,
+              "s": 0
+            },
+            {
+              "i": 19,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64,
+              "s": 0
+            },
+            {
+              "i": 59,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64,
+              "s": 0
+            },
+            {
+              "i": 40,
+              "gW": 1,
+              "gH": 3,
+              "w": 64,
+              "h": 192,
+              "s": 0
+            },
+            {
+              "i": 41,
+              "gW": 2,
+              "gH": 3,
+              "w": 128,
+              "h": 192,
+              "s": 0
+            },
+            {
+              "i": 60,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64,
+              "s": 0
+            },
+            {
+              "i": 5,
+              "gW": 3,
+              "gH": 1,
+              "w": 192,
+              "h": 64,
+              "s": 0
+            },
+            {
+              "i": 13,
+              "gW": 3,
+              "gH": 2,
+              "w": 192,
+              "h": 128,
+              "s": 0
+            }
+          ],
+          "nW": 1024,
+          "nH": 1024
+        },
+        {
+          "i": "/content/bluesword/interior.png",
+          "p": 0,
+          "gW": 64,
+          "gH": 64,
+          "w": 512,
+          "h": 1024,
+          "objs": [
+            {
+              "i": 0,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 1,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 2,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 4,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 6,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128
+            },
+            {
+              "i": 8,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 16,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 9,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128
+            },
+            {
+              "i": 11,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128
+            },
+            {
+              "i": 13,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 21,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 22,
+              "gW": 2,
+              "gH": 3,
+              "w": 128,
+              "h": 192
+            },
+            {
+              "i": 29,
+              "gW": 1,
+              "gH": 2,
+              "w": 64,
+              "h": 128
+            },
+            {
+              "i": 27,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 25,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128
+            },
+            {
+              "i": 24,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 32,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 35,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 40,
+              "gW": 2,
+              "gH": 2,
+              "w": 128,
+              "h": 128
+            },
+            {
+              "i": 42,
+              "gW": 3,
+              "gH": 2,
+              "w": 192,
+              "h": 128
+            },
+            {
+              "i": 45,
+              "gW": 3,
+              "gH": 3,
+              "w": 192,
+              "h": 192
+            },
+            {
+              "i": 56,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 57,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 58,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 59,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 60,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 64,
+              "gW": 4,
+              "gH": 2,
+              "w": 256,
+              "h": 128
+            },
+            {
+              "i": 68,
+              "gW": 3,
+              "gH": 2,
+              "w": 192,
+              "h": 128
+            },
+            {
+              "i": 71,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 79,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 80,
+              "gW": 3,
+              "gH": 2,
+              "w": 192,
+              "h": 128
+            },
+            {
+              "i": 83,
+              "gW": 4,
+              "gH": 2,
+              "w": 256,
+              "h": 128
+            },
+            {
+              "i": 87,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 95,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 96,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 98,
+              "gW": 4,
+              "gH": 1,
+              "w": 256,
+              "h": 64
+            },
+            {
+              "i": 102,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 104,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 106,
+              "gW": 4,
+              "gH": 1,
+              "w": 256,
+              "h": 64
+            },
+            {
+              "i": 112,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 116,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 117,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 118,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 119,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 110,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 113,
+              "gW": 2,
+              "gH": 1,
+              "w": 128,
+              "h": 64
+            },
+            {
+              "i": 115,
+              "gW": 1,
+              "gH": 1,
+              "w": 64,
+              "h": 64
+            }
+          ],
+          "nW": 1024,
+          "nH": 2048
+        },
+        {
+          "i": "/content/bluesword/items.png",
+          "p": 0,
+          "gW": 64,
+          "gH": 64,
+          "w": 512,
+          "h": 512,
+          "objs": [
+            {
+              "i": 0,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 1,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 8,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 9,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 2,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 3,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 4,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 5,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 13,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 6,
+              "gW": 2,
+              "gH": 1,
+              "w": 64,
+              "h": 32
+            },
+            {
+              "i": 14,
+              "gW": 2,
+              "gH": 1,
+              "w": 64,
+              "h": 32
+            },
+            {
+              "i": 16,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 17,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 18,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 19,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 20,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 21,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 22,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 23,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 24,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 25,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 26,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 27,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 28,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 29,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 30,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 31,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 32,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 33,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 35,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 36,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 37,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 38,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 39,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 40,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 41,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 42,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 43,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 44,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 45,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 46,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 47,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 48,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 49,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 50,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 51,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 52,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 53,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 54,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 56,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 57,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 58,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 59,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 60,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 61,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            }
+          ],
+          "nW": 1024,
+          "nH": 1024
+        },
+        {
+          "i": "/content/bluesword/forest.png",
+          "p": 0,
+          "gW": 64,
+          "gH": 64,
+          "w": 512,
+          "h": 512,
+          "objs": [
+            {
+              "i": 0,
+              "gW": 3,
+              "gH": 3,
+              "w": 96,
+              "h": 96
+            },
+            {
+              "i": 3,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 5,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 7,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 24,
+              "gW": 3,
+              "gH": 3,
+              "w": 96,
+              "h": 96
+            },
+            {
+              "i": 21,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 37,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 22,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 38,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 15,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 23,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 31,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 24,
+              "gW": 3,
+              "gH": 2,
+              "w": 96,
+              "h": 64
+            },
+            {
+              "i": 19,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            }
+          ],
+          "nW": 1024,
+          "nH": 1024
+        },
+        {
+          "i": "/content/bluesword/desert.png",
+          "p": 0,
+          "gW": 64,
+          "gH": 64,
+          "w": 576,
+          "h": 1024,
+          "objs": [
+            {
+              "i": 0,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 2,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 11,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 3,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 12,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 4,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 6,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 8,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 17,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 25,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 24,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 33,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 23,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 21,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 20,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 19,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 18,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 29,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 27,
+              "gW": 2,
+              "gH": 1,
+              "w": 64,
+              "h": 32
+            },
+            {
+              "i": 36,
+              "gW": 3,
+              "gH": 2,
+              "w": 96,
+              "h": 64
+            },
+            {
+              "i": 39,
+              "gW": 3,
+              "gH": 3,
+              "w": 96,
+              "h": 96
+            },
+            {
+              "i": 42,
+              "gW": 3,
+              "gH": 3,
+              "w": 96,
+              "h": 96
+            },
+            {
+              "i": 54,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 56,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 65,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 66,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 67,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 68,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 77,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 76,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 75,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 74,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 72,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 90,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 108,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 83,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 85,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 87,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 96,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 69,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 70,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 88,
+              "gW": 1,
+              "gH": 2,
+              "w": 32,
+              "h": 64
+            },
+            {
+              "i": 89,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 98,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 101,
+              "gW": 2,
+              "gH": 2,
+              "w": 64,
+              "h": 64
+            },
+            {
+              "i": 119,
+              "gW": 1,
+              "gH": 1,
+              "w": 32,
+              "h": 32
+            },
+            {
+              "i": 103,
+              "gW": 4,
+              "gH": 4,
+              "w": 128,
+              "h": 128
+            }
+          ],
+          "nW": 1152,
+          "nH": 2048
+        }
+      ],
+      "layers": [
+        {
+          "_s": {
+            "default": "1"
+          },
+          "n": "Background Layer",
+          "t": [],
+          "p": [],
+          "d": []
+        },
+        {
+          "_s": {
+            "default": "1"
+          },
+          "n": "Player Layer",
+          "t": [],
+          "p": [],
+          "d": [],
+          "r": [],
+          "w": []
+        },
+        {
+          "n": "Trap Layer",
+          "_s": {
+            "default": "1"
+          },
+          "t": [],
+          "p": [],
+          "d": []
+        },
+        {
+          "n": "GM Layer",
+          "_s": {
+            "default": "(@me.rank=='Game Master')?(1):((@me.rank=='Assistant Master')?(1):(0))"
+          },
+          "t": [],
+          "p": [],
+          "d": []
+        }
+      ],
+      "w": 1600,
+      "h": 1600,
+      "gridX": 0,
+      "gridY": 0,
+      "gridW": 64,
+      "gridH": 64,
+      "gc": "rgba(0,0,0,0.10)",
+      "vZ": 100,
+      "options": {
+        "gLayer": 0,
+        "pLayer": 1
+      },
+      "_c": "localhost",
+      "_uid": null,
+      "_s": {
+        "localhost": 1
+      },
+      "_lclock": 0,
+      "_sync": null,
+      "cursors": {
+        "localhost": {
+          "x": 1350,
+          "y": 111,
+          "l": 1,
+          "v": true
+        },
+        "player_1": {
+          "x": 799,
+          "y": 487,
+          "l": 1,
+          "v": false
+        }
+      }
+    }
+  },
+  "_evuid": 0,
+  "events": {
+    "events": {}
+  },
+  "media": {
+    "players": {}
+  },
+  "state": {
+    "display": {},
+    "_lclock": 19,
+    "tabs": [
+      {
+        "ui": "ui_board",
+        "index": "1"
+      },
+      {
+        "name": "Slideshow",
+        "data": {}
+      },
+      {
+        "name": "Resource Page",
+        "ui": "ui_resourcePage",
+        "index": "config"
+      },
+      {
+        "ui": "ui_homebrew",
+        "name": "System Builder"
+      }
+    ],
+    "setting": {},
+    "5Extended": {
+      "test": "lol"
+    }
+  },
+  "logs": {
+    "events": [],
+    "_lclock": 143,
+    "uid": 136
+  },
+  "templates": {
+    "info": {
+      "name": {
+        "current": "Legend of Zelda"
+      },
+      "img": {
+        "current": "/images/ZeldaAssets/ZeldaCard.png"
+      },
+      "notes": {
+        "name": "Notes"
+      }
+    },
+    "identifier": "Zelda_E3",
+    "build": "v1",
+    "version": 1,
+    "initiative": {
+      "compare": "(@i1.total>@i2.total)?(1):((@i1.total==@i2.total)?(0):(-1))"
+    },
+    "actors": {
+      "Character": {
+        "_t": "c",
+        "_type": "Character",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "Default Character"
+          },
+          "img": {
+            "name": "Character Art"
+          },
+          "notes": {
+            "name": "Character Notes"
+          }
+        },
+        "_hud": {
+          "Life": {
+            "hot": 1,
+            "display": "<span style=\"color:#FFF; font-size:11px;\">\n\nHearts|♥| <br><input target=\"counters.hearts\" style='width : 50px; border-color:transparent;' class='line middle'/>▌ //\n\t\t\t\t\t\t\t▐<input target=\"counters.hearts\" field=\"max\" style='width : 50px; border-color:transparent;' class='line middle'/>\n<br>\nMagic|♦| <br>\n<input target=\"counters.magic\" style='width : 50px; border-color:transparent;' class='line middle'/>▌ //\n\t\t\t\t\t\t\t▐<input target=\"counters.magic\" field=\"max\" style='width : 50px; border-color:transparent;' class='line middle'/>\n<br>\nStamina|♣|<br> <input target=\"counters.stamina\" style='width : 50px; border-color:transparent;' class='line middle'/>▌ //\n\t\t\t\t\t\t\t▐<input target=\"counters.stamina\" field=\"max\" style='width : 50px; border-color:transparent;' class='line middle'/>\n</div>\n</span>"
+          }
+        },
+        "_flags": {},
+        "Tech": {},
+        "Spell": {},
+        "Song": {},
+        "Equipment": {},
+        "Item": {},
+        "counters": {
+          "hearts": {
+            "max": "3",
+            "current": "3"
+          },
+          "magic": {
+            "max": "1",
+            "current": "1"
+          },
+          "stamina": {
+            "max": "1",
+            "current": "1"
+          }
+        },
+        "stats": {
+          "agility": "1",
+          "wits": "1",
+          "wisdom": "1"
+        },
+        "_calc": []
+      },
+      "NPC": {
+        "_t": "c",
+        "_type": "NPC",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "Default NPC"
+          },
+          "img": {
+            "name": "Character Art"
+          },
+          "notes": {
+            "name": "Character Notes"
+          }
+        },
+        "_hud": {},
+        "_flags": {}
+      }
+    },
+    "elements": {
+      "Item": {
+        "_t": "i",
+        "_type": "Item",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "Default Item"
+          },
+          "img": {
+            "name": "Item Art"
+          },
+          "notes": {
+            "name": "Item Notes"
+          }
+        },
+        "_hud": {}
+      },
+      "Spell": {
+        "_t": "i",
+        "_type": "Spell",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "Default Spell"
+          },
+          "img": {
+            "name": "Spell Art"
+          },
+          "notes": {
+            "name": "Spell Notes"
+          }
+        },
+        "_hud": {}
+      },
+      "Tech": {
+        "_t": "i",
+        "_type": "Tech",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "DefaultTech"
+          },
+          "img": {
+            "name": "Art"
+          },
+          "notes": {
+            "name": "Notes"
+          },
+          "techCond": "Jumping",
+          "techSP": "5"
+        }
+      },
+      "Song": {
+        "_t": "i",
+        "_type": "Song",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "DefaultSong"
+          },
+          "img": {
+            "name": "Art"
+          },
+          "notes": {
+            "name": "Notes"
+          }
+        }
+      },
+      "Equipment": {
+        "_t": "i",
+        "_type": "Equipment",
+        "info": {
+          "name": {
+            "name": "Name",
+            "current": "DefaultEquipment"
+          },
+          "img": {
+            "name": "Art"
+          },
+          "notes": {
+            "name": "Notes"
+          },
+          "Size": "Big",
+          "Range": "1"
+        },
+        "weapon": {
+          "Damage": "0"
+        }
+      }
+    },
+    "page": {
+      "_t": "p",
+      "info": {
+        "name": {
+          "name": "Name",
+          "current": "Default Page"
+        },
+        "img": {
+          "name": "Art"
+        },
+        "notes": {
+          "name": "Notes",
+          "modifiers": {
+            "style": {}
+          }
+        },
+        "mode": {
+          "name": "Mode"
+        }
+      }
+    },
+    "security": {
+      "player": {
+        "Game Master": 1,
+        "Assistant Master": 2,
+        "Trusted Player": 3,
+        "Player": 4,
+        "Spectator": 5
+      },
+      "object": {
+        "Default Access": 0,
+        "Owner": 1,
+        "Rights": 2,
+        "Visible": 3,
+        "Deny": 4
+      }
+    },
+    "constants": {},
+    "tables": {},
+    "tags": {},
+    "effects": {},
+    "display": {
+      "actors": {
+        "Character": {
+          "width": "912px;",
+          "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n\t<head>\n\t\t<title>Zelda RPG - Character Form</title>\n\t\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Montserrat|Signika\" rel=\"stylesheet\" />\n\t\t<style>\n\t\t@keyframes heartBeat {\n\t\t\t\t0% {\n\t\t\t\t\t-webkit-transform: scale(1);\n\t\t\t\t\ttransform: scale(1);\n\t\t\t\t}\n\n\t\t\t\t14% {\n\t\t\t\t\t-webkit-transform: scale(1.3);\n\t\t\t\t\ttransform: scale(1.15);\n\t\t\t\t}\n\n\t\t\t\t28% {\n\t\t\t\t\t-webkit-transform: scale(1);\n\t\t\t\t\ttransform: scale(1);\n\t\t\t\t}\n\n\t\t\t\t42% {\n\t\t\t\t\t-webkit-transform: scale(1.3);\n\t\t\t\t\ttransform: scale(1.15);\n\t\t\t\t}\n\n\t\t\t\t\t70% {\n\t\t\t\t\t\t-webkit-transform: scale(1);\n\t\t\t\t\t\ttransform: scale(1);\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t.heartBeat {\n\t\t\t\t-webkit-animation: heartBeat 1.5s infinite; /* Safari 4.0 - 8.0 */\n\t\t\t\tanimation: heartBeat 1.5s infinite;\n\t\t\t}\n\n\t\t\t/* My Animations */\n\t\t\t/* Basic styles */\n\n\t\t\t@font-face {\n\t\t\t\tfont-family: \"triforce\";\n\t\t\t\tsrc: url('../font/triforce.ttf');\n\t\t\t}\n\n\t\t\tbody {\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0;\n\t\t\t\tfont-family: 'Signika', sans-serif;\n\t\t\t\tbackground-color: #000;\n\t\t\t}\n\n\t\t\ttable {\n\t\t\t\tborder: none;\n\t\t\t\tborder-collapse: collapse;\n\t\t\t}\n\n\t\t\ttd {\n\t\t\t\tpadding: 10px 5px;\n\t\t\t}\n\n\t\t\t.formBody {\n\t\t\t\tfont-family: \"triforce\";\n\t\t\t\twidth: 900px;\n\t\t\t\theight: 1540px;\n\t\t\t\tbackground-image: url(\"../images/ZeldaAssets/fiche_zelda_fond.jpg\");\n\t\t\t\tbackground-size: cover;\n\t\t\t\tbackground-repeat: no-repeat;\n\t\t\t\tmargin: 0 auto;\n\t\t\t\tpadding: 50px 0 0;\n\t\t\t}\n\n\t\t\t.formRow {\n\t\t\t\tpadding: 0 50px;\n\t\t\t}\n\n\t\t\t.formContain {\n\t\t\t\tbackground-color: rgb(255, 255, 255, 0.8);\n\t\t\t\tborder: ridge 10px rgb(0, 144, 255, 0.4);\n\t\t\t\tborder-radius: 10px;\n\t\t\t\tmargin: 15px;\n\t\t\t}\n\n\t\t\t.formRow,\n\t\t\t.formContain,\n\t\t\t.triforce {\n\t\t\t\twidth: auto;\n\t\t\t\tfloat: left;\n\t\t\t}\n\n\t\t\t.formCharaImg {\n\t\t\t\twidth: 250px;\n\t\t\t\theight: 350px;\n\t\t\t\tfloat: left;\n\t\t\t}\n\n\t\t\t.formCharaImg img {\n\t\t\t\twidth: 100%;\n\t\t\t\theight: auto;\n\t\t\t}\n\n\t\t\t.bio,\n\t\t\t.baseStats {\n\t\t\t\tfloat: right;\n\t\t\t\twidth: 450px;\n\t\t\t\theight: auto;\n\t\t\t}\n\n\t\t\t.bio table {\n\t\t\t\tfont-size: 12px;\n\t\t\t}\n\n\t\t\t.triforce {\n\t\t\t    width: 100px;\n\t\t\t    height: 100px !important;\n\t\t\t    margin: 30px 15px 15px;\n\t\t\t    float: right;\n\t\t\t}\n\n\t\t\t.triforce img {\n\t\t\t\twidth: 50px;\n\t\t\t\theight: auto;\n\t\t\t}\n\n\t\t\t.lifStaMag {\n\t\t\t\twidth: 300px;\n\t\t\t\theight: auto;\n\t\t\t\tpadding: 10px;\n\t\t\t\tfloat: left;\n\t\t\t}\n\n\t\t\t.powerStuffs {\n\t\t\t\twidth: 370px;\n\t\t\t}\n\n\t\t\t.powerStuffs ul {\n\t\t\t\twidth: 70px;\n\t\t\t\tfloat: left;\n\t\t\t}\n\n\t\t\t.powerStuffs table  {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin: 5px;\n\t\t\t\tborder-collapse: inherit;\n\t\t\t}\n\n\t\t\t.powerStuffs table td {\n\t\t\t\tmargin: 0;\n\t\t\t\tpadding: 0 5px;\n\t\t\t}\n\n\t\t\t.powerStuffs table .head {\n\t\t\t\tfont-size: 16px;\n\t\t\t\tborder-top: solid 1px rgb(0, 0, 0, 0.5);\n\t\t\t\tborder-bottom: solid 1px rgb(0, 0, 0, 0.5);\n\t\t\t\tpadding: 0;\n\t\t\t}\n\n\t\t\t.skill,\n\t\t\t.attributes\t{\n\t\t\t\tfont-size: 12px;\n\t\t\t\tpadding: 5px;\n\t\t\t}\n\n\t\t\t.skill .head td,\n\t\t\t.attributes .head td\n\t\t\t\tpadding: 5px 5px 10px 5px;\n\t\t\t}\n\n\t\t\t.attributes\t{\n\t\t\t\tfont-size: 14px;\n\t\t\t}\n\n\t\t\t.attributes\t.head td{\n\t\t\t\tfont-size: 18px;\n\t\t\t}\n\n\t\t\t.skill\t.head td{\n\t\t\t\tfont-size: 16px;\n\t\t\t}\n\n\t\t\t.stuff tr td{\n\t\t\t\tpadding: 5px;\n\t\t\t\tfont-size: 14px;\n\t\t\t}\n\n\t\t\t.numbr {\n\t\t\t\tborder: solid 1px rgb(0, 0, 0, 0.5);\n\t\t\t\ttext-align: center;\n\t\t\t}\n\n\t\t\t.form-col-left {\n\t\t\t\twidth: 390px;\n\t\t\t\tfloat: left;\n\t\t\t\tmargin: 0 10px 0 0;\n\t\t\t}\n\n\t\t\t.legal {\n\t\t\t\twidth: 753px;\n\t\t\t}\n\n\t\t\t.legal p {\n\t\t\t\ttext-align: center;\n\t\t\t\tfont-size: 10px;\n\t\t\t}\n\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<div class=\"formBody\">\n\t\t\t<div class=\"formRow\">\n\t\t\t\t<div class=\"formContain formBlock formCharaImg\">\n\t\t\t\t\t<div class='flexcolumn'>\n\t\t\t\t\t\t<!--██████████████████████████████████████████████████████████████████Insert your character img url in src██████████████████████████████████████████████████-->\n\t\t\t\t\t\t<img src=\"https://vignette.wikia.nocookie.net/zelda/images/2/2a/Link_Hyrule_Warriors.png/revision/latest?cb=20140620205907\" alt=\"Why is Link from the legend of Zelda wearing a blue Scarf?!\"/>\n\t\t\t\t\t\t<!--██████████████████████████████████████████████████████████████████Insert your character img url in src██████████████████████████████████████████████████-->\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"bioStat\">\n\t\t\t\t\t<div class=\"formContain bio\">\n\t\t\t\t\t\t<table>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"55px\">\n\t\t\t\t\t\t\t\t\t\t<b>Name :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"100px\">\n\t\t\t\t\t\t\t\t\t\t<p edit='info.name' style='font-size:20px;'>eval{@name}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"55px\">\n\t\t\t\t\t\t\t\t\t\t<b>Size :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"100px\">\n\t\t\t\t\t\t\t\t\t\t<p edit='info.size' style='font-size:20px;'>eval{@size}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"55px\">\n\t\t\t\t\t\t\t\t\t\t<b>Age :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"100px\">\n\t\t\t\t\t\t\t\t\t\t<p edit='info.age' style='font-size:20px;'>eval{@age}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Player :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.pName' style='font-size:20px;'>eval{@pName}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Sex :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.sex' style='font-size:20px;'>eval{@sex}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Height :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.height' style='font-size:20px;'>eval{@height}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Race :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.race' style='font-size:20px;'>eval{@race}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Speed :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.speed' style='font-size:20px;'>eval{@speed}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Mass :</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<p edit='info.mass' style='font-size:20px;'>eval{@mass}</p>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"formContain baseStats\">\n\t\t\t\t\t\t<div class=\"formBlock lifStaMag\">\n\t\t\t\t\t\t\tLife|| ▐<input target=\"counters.hearts\" style='width : 50px; border-color:transparent;' class='line middle'/>▌ //\n\t\t\t\t\t\t\t▐<input target=\"counters.hearts\" field=\"max\" style='width : 50px; border-color:transparent;' class='line middle'/>▌\n\n\t\t\t\t\t\t\t\t<loop class='flexrow flexwrap spadding' count=\"@c.counters.hearts.max\">\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% <= (@hearts) && (@hearts == @c.counters.hearts.max)}\" class='spadding smooth smargin' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/Fullheart.png' alt='Full Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t\t\t<div cond=\"eval{%index% <= (@hearts-2)f && (@hearts != @c.counters.hearts.max)} \" class='spadding smooth smargin' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/Fullheart.png' alt='Full Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% == (@hearts)f && (@hearts * 4) % 4 == 1}\" class='spadding smooth smargin heartBeat' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/14heart.png' alt='1/4 Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% == (@hearts)f && (@hearts * 4) % 4 == 2}\" class='spadding smooth smargin heartBeat' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/12heart.png' alt='1/2 Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% == (@hearts)f && (@hearts * 4) % 4 == 3}\" class='spadding smooth smargin heartBeat' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/34heart.png' alt='1/3 Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% == (@hearts)f && (@hearts * 4) % 4 == 0}\" class='spadding smooth smargin heartBeat' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/Fullheart.png' alt='Full Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t    <div cond=\"eval{%index% >= ((@hearts)_0 - (@hearts)|0)}\" class='spadding smooth smargin' style='height:10px; width: 11px;'><img src='../images/ZeldaAssets/emptyheart.png' alt='Empty Heart' style='height:15px; width: 15px;'></img></div>\n\t\t\t\t\t\t\t\t</loop>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\t♦Magic♦ &nbsp; &nbsp;\n                |♦<input target=\"counters.magic\" style='width : 30px; border-color:transparent;' class='line middle'/>♦| //\n                |♦<input target=\"counters.magic\" field=\"max\" style='width : 30px; border-color:transparent;' class='line middle'/>♦|\n\t\t\t\t\t\t\t\t<loop class='flexrow flexwrap spadding' count=\"@c.counters.magic.max\">\n\t\t\t\t\t\t\t\t\t\t<div cond=\"eval{%index% < @magic && (@c.counters.magic.max - @magic) <= (#:T*2)}\" style='height:10px; width: 7px;'><p class='outline smooth flexwrap' style='background-image: linear-gradient(#aaaFFF, blue); height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t\t\t<div cond=\"eval{%index% < @magic && (@c.counters.magic.max - @magic)}\" style='height:10px; width: 7px;'><p class='outline smooth flexwrap' style='background-image: linear-gradient(#aaaFFF, blue); height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t\t\t<div cond=\"eval{%index% >= ((@magic)_0 - (@magic)|0)}\" style='height:10px; width: 7px;'> <p class='outline smooth flexwrap' style='background-image: none; height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t</loop>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\t♣Stamina♣>>\n\t\t\t\t\t\t\t\t|█<input target=\"counters.stamina\" style='width : 30px; border-color:transparent;' class='line middle'/>█| //\n\t\t\t\t\t\t\t\t|█<input target=\"counters.stamina\" field=\"max\" style='width : 30px; border-color:transparent;' class='line middle'/>█|\n\n\t\t\t\t\t\t\t\t<loop class='flexrow flexwrap' count=\"@c.counters.stamina.max\">\n\t\t\t\t\t\t\t\t\t<div cond=\"eval{%index% < @stamina && (@c.counters.stamina.max - @stamina) <= (#:T*2)}\" style='height:10px; width: 7px;'><p class='outline smooth flexwrap' style='background-image: linear-gradient(#aaFFaf, green); height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t  <div cond=\"eval{%index% < @stamina && (@c.counters.stamina.max - @stamina)}\" style='height:10px; width: 7px;'><p class='outline smooth flexwrap' style='background-image: linear-gradient(#aaFFaf, green); height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t  <div cond=\"eval{%index% >= ((@stamina)_0 - (@stamina)|0)}\" style='height:10px; width: 7px;'> <p class='outline smooth flexwrap' style='background-image: none; height:10px; width: 7px;'></p></div>\n\t\t\t\t\t\t\t\t</loop>\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"triforce\">\n\t\t\t\t\t\t\t<div class='flexrow' style=\"padding-left:25px;\">\n\t\t\t\t\t\t\t\t<div cond=\"eval{@power == 0}\"><img src='../images/ZeldaAssets/powerempty.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@power == 1}\"><img src='../images/ZeldaAssets/power13.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@power == 2}\"><img src='../images/ZeldaAssets/power23.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@power == 3}\"><img src='../images/ZeldaAssets/Powerfull.png'/></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class='flexrow'>\n\t\t\t\t\t      <div cond=\"eval{@wisdom == 0}\"><img src='../images/ZeldaAssets/wisdomempty.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@wisdom == 1}\"><img src='../images/ZeldaAssets/wisdom13.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@wisdom == 2}\"><img src='../images/ZeldaAssets/wisdom23.png'/></div>\n\t\t\t\t\t      <div cond=\"eval{@wisdom == 3}\"><img src='../images/ZeldaAssets/wisdomfull.png'/></div>\n\n\t\t\t\t\t\t\t\t<div cond=\"eval{@courage == 0}\"><img src='../images/ZeldaAssets/courageempty.png'/></div>\n\t\t\t\t\t\t\t\t<div cond=\"eval{@courage == 1}\"><img src='../images/ZeldaAssets/courage13.png'/></div>\n\t\t\t\t\t\t\t\t<div cond=\"eval{@courage == 2}\"><img src='../images/ZeldaAssets/courage23.png'/></div>\n\t\t\t\t\t\t\t\t<div cond=\"eval{@courage == 3}\"><img src='../images/ZeldaAssets/couragefull.png'/></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\tPower:&nbsp;<span edit='counters.power' style='padding-left:10px; padding-right:10px; border-bottom: 2px solid black; color:red;'>eval{@power}</span>\n\t\t\t\t\t\t\tCourage:&nbsp;<span edit='counters.courage' style='padding-left:10px; padding-right:10px; border-bottom: 2px solid black; color:green;'>eval{@courage}</span>\n\t\t\t\t\t\t\tWisdom:&nbsp;<span edit='counters.wisdom' style='padding-left:10px; padding-right:10px; border-bottom: 2px solid black; color:blue;'>eval{@wisdom}</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"formRow\">\n\t\t\t\t<div class=\"form-col-left\">\n\t\t\t\t\t<div class=\"formContain powerStuffs\">\n\t\t\t\t\t\t<table class=\"attributes\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr class=\"head\">\n\t\t\t\t\t\t\t\t\t<td colspan=\"2\">\n\t\t\t\t\t\t\t\t\t\t<b>Attributes</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"50px\">\n\t\t\t\t\t\t\t\t\t\t<b>Brawn<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"15px\" class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='stats.brawn' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#aa0000;'>eval{@brawn}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Agility<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='stats.agility' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#00aa00;'>eval{@agility}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Guts<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='stats.guts' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#aaa900;'>eval{@guts}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Wits<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='stats.wits' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#aa00aa;'>eval{@wits}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Smart<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='stats.smart' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#0000aa;'>eval{@smart}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr><td>&nbsp;</td></tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t    <td><b>Token</b></td>\n\t\t\t\t\t\t\t\t    <td><ui name='ui_token' class='white outline smooth hover2' style='width : 30px; height : 30px; position: relative;'/></td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t\t<table class=\"skill\">\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t<tr class=\"head\">\n\t\t\t\t\t\t\t\t\t<td width=\"50px\">\n\t\t\t\t\t\t\t\t\t\t<b>Skills</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"15px\">\n\t\t\t\t\t\t\t\t\t\t<b>Attr</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td width=\"50px\">\n\t\t\t\t\t\t\t\t\t\t<b>Base</b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Melee<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.melee' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@melee}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.meleeBase\" cond='eval{@meleeBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Heavy<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.heavy' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@heavy}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.heavyBase\" cond='eval{@heavyBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Ranged<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.ranged' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@ranged}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.rangedBase\" cond='eval{@rangedBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t\t\t<b>Shield<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.shield' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@shield}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.shieldBase\" cond='eval{@shieldBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Spellcraft<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.spellcraft' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@spellcraft}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.spellcraftBase\" cond='eval{@spellcraftBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Instruments<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.instruments' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@instruments}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.instrumentsBase\" cond='eval{@instrumentsBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Tools<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.tools' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@tools}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.toolsBase\" cond='eval{@toolsBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Acrobatics<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.acrobatics' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@acrobatics}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.acrobaticsBase\" cond='eval{@acrobaticsBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Athletics<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.athletics' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@athletics}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.athleticsBase\" cond='eval{@athleticsBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Riding<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.riding' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@riding}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.ridingBase\" cond='eval{@ridingBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Stealth<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.stealth' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@riding}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.stealthBase\" cond='eval{@stealthBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Perception<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.perception' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@perception}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.perceptionBase\" cond='eval{@perceptionBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Survival<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.survival' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@survival}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.survivalBase\" cond='eval{@survivalBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Lore<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.lore' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@lore}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.loreBase\" cond='eval{@loreBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t<td width=\"75px\">\n\t\t\t\t\t\t\t\t\t\t<b>Composure<b>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"numbr\">\n\t\t\t\t\t\t\t\t\t\t<span edit='info.composure' style='padding-left:5px; padding-right: 5px; padding-top: 3px; color:#000000;'>eval{@composure}</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td  class=\"lvl\">\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 0}'>○○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 1}'>•&nbsp;○○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 2}'>•&nbsp;•&nbsp;○○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 3}'>•&nbsp;•&nbsp;•&nbsp;○○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 4}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;○○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 5}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;○</span>\n\t\t\t\t\t\t\t\t\t\t<span edit=\"stats.composureBase\" cond='eval{@composureBase == 6}'>•&nbsp;•&nbsp;•&nbsp;•&nbsp;•&nbsp;•</span>\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"formContain powerStuffs scroll-y\" style=\"min-height:325px;\">\n\t\t\t\t\t\t<div class=\"flexrow\">\n\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t<b>Techniques</b>\n\t\t\t\t\t\t\t\t<b class='middle link'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t+ Add +\n\t\t\t\t\t\t\t\t\t\t<create type='ITEM' target=\"Tech\"/>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</b>\n\t\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t\t<div class='flexrow'>\n\t\t\t\t\t\t\t\t\t\t<list target='Tech'>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class='flexrox fit-y'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<b class='line size2 lrpadding flex' edit=\"Tech.%index%.info.name\" style='font-size:13px;'>traverse{Tech.%index%.info.name.current}</b>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-edit link'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<change target='Tech.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-trash link destroy'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<delete target='Tech.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t</list>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t<b>Magics</b>\n\t\t\t\t\t\t\t\t<b class='middle link'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t+ Add +\n\t\t\t\t\t\t\t\t\t\t<create type='ITEM' target=\"Spell\"/>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</b>\n\t\t\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t\t\t<div class='flexrow'>\n\t\t\t\t\t\t\t\t\t\t\t<list target='Spell'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='flexrox fit-y'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b class='line size2 lrpadding flex' edit=\"Spell.%index%.info.name\" style='font-size:13px;'>traverse{Spell.%index%.info.name.current}</b>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-edit link'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<change target='Spell.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-trash link destroy'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<delete target='Spell.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t</list>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t<b>Songs</b>\n\t\t\t\t\t\t\t\t<b class='middle link'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t+ Add +\n\t\t\t\t\t\t\t\t\t\t<create type='ITEM' target=\"Song\"/>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</b>\n\t\t\t\t\t\t\t\t\t<div class=\"flexcolumn flex\">\n\t\t\t\t\t\t\t\t\t\t<div class='flexrow'>\n\t\t\t\t\t\t\t\t\t\t\t<list target='Song'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='flexrox fit-y'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b class='line size2 lrpadding flex' edit=\"Song.%index%.info.name\" style='font-size:13px;'>traverse{Song.%index%.info.name.current}</b>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-edit link'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<change target='Song.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-trash link destroy'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<delete target='Song.%index%'>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t</list>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t\t<div class=\"formContain powerStuffs flexcolumn scroll-y\">\n\n\t\t\t\t\t\t<b class='middle link'>\n\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t+ Add +\n\t\t\t\t\t\t\t\t<create type='ITEM' target=\"Equipment\"/>\n\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t</b>\n\t\t\t\t\t\t<b class=\"flexrow\" style=\"height:13px\">Name&emsp;&emsp;<span style=\"color:#F00;\">Damage/Red.</span>&emsp;&emsp;<span style=\"color:#01F;\">Size</span>&emsp;&emsp;<span style=\"color:#790;\">Effect</span>&emsp;<span style=\"color:#a2a;\">Range</span></b>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t<list target='Equipment'>\n\t\t\t\t\t\t\t<div class='flexrow fit-y'>\n\t\t\t\t\t\t\t\t<b class='line size2 lrpadding flex' edit=\"Equipment.%index%.info.name\" style='font-size:13px; width:100px;'>traverse{Equipment.%index%.info.name.current}</b>&emsp;&emsp;&emsp;\n\t\t\t\t\t\t\t\t<span class='line size2 lrpadding flex' edit=\"Equipment.%index%.weapon.Damage\" style='color:#F00;font-size:13px; width:50px;'>traverse{Equipment.%index%.weapon.Damage}♥</span>&emsp;\n\t\t\t\t\t\t\t\t<span class='line size2 lrpadding flex' edit=\"Equipment.%index%.info.size\" style='color:#01F;font-size:13px; width:35px;'>traverse{Equipment.%index%.info.Size}</span>&emsp;\n\t\t\t\t\t\t\t\t<span class='line size2 lrpadding flex' edit=\"Equipment.%index%.info.equipDescription\" style='color:#790;font-size:13px; width:55px;'>traverse{Equipment.%index%.info.equipDescription}</span>&emsp;&nbsp;\n\t\t\t\t\t\t\t\t<span class='line size2 lrpadding flex' edit=\"Equipment.%index%.info.Range\" style='color:#a2a;font-size:13px;'>traverse{Equipment.%index%.info.Range}</span>&nbsp;\n\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-edit link'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t<change target='Equipment.%index%'>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-trash link destroy'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t<delete target='Equipment.%index%'>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</list>\n\n\t\t\t\t\t\t<b class='middle link'>\n\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t+ Add +\n\t\t\t\t\t\t\t\t<create type='ITEM' target=\"Item\"/>\n\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t</b>\n\n\t\t\t\t<b class='middle'>Inventory</b>\n\t\t\t\t\t<list target='Item'>\n\t\t\t\t\t\t\t<div class='flexrow fit-xy'>\n\t\t\t\t\t\t\t\t<div class='flexrow outline smooth' style='width : 50px;'>\n\t\t\t\t\t\t\t\t<ui name='ui_image' scope-lookup=\"inventory.%index%.info.img\" scope-fit='cover'/>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<b class='line size2 lrpadding flex' edit=\"Item.%index%.info.name\" style='font-size:13px; width:100px;'>traverse{Item.%index%.info.name.current}</b>\n\t\t\t\t\t\t\t\tMP: <b class='line size2 lrpadding flex' edit=\"Item.%index%.info.mana\" style='font-size:13px; width:100px;'>traverse{Item.%index%.info.mana}</b>\n\t\t\t\t\t\t\t\tX <b class='line size2 lrpadding flex outlinebottom middle' edit=\"Item.%index%.info.stock\" style='font-size:13px; width:100px;'>traverse{Item.%index%.info.stock}</b>\n\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-edit link'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t<change target='Item.%index%'>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t<span class='glyphicon glyphicon-trash link destroy'>\n\t\t\t\t\t\t\t\t\t<click>\n\t\t\t\t\t\t\t\t\t\t<delete target='Item.%index%'>\n\t\t\t\t\t\t\t\t\t</click>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</list>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"formRow\">\n\t\t\t\t<div class=\"formContain legal\">\n\t\t\t\t\t<p>\n\t\t\t\t\t\t© Design by Dormin | Coding by Poker and Sparth - 2019<br/>\n\t\t\t\t\t\t© The Legend of Zelda belongs to Nintendo\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>\n"
+        },
+        "NPC": {
+          "content": "<div class='sheet1 flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn white outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n        <ui name='ui_token' class='white outline smooth hover2' style='position : absolute; right : 0; bottom : 0; width : 30px; height : 30px;'/>\n      </div>\n    </div>\n    <div class='flexcolumn flex2'>\n      <ui name='ui_rawNotes'/>\n    </div>\n  </div>\n</div>"
+        }
+      },
+      "elements": {
+        "Item": {
+          "content": "<!--█████████████████████████ Items █████████████████████████████-->\n<div class='flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n      </div>\n\t\t\t<span class='flexrow' style=\"height:80px; background-color:#000;\"></span>\n    </div>\n    <div class='flexcolumn flex2' style=\"background-image: url('../images/ZeldaAssets/zeldaEmblem.png');  background-repeat: nove; background-size: cover; background-color: #000;\">\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t\t<p>Effect:</p>\n\t\t\t\t\t<span class=\"flex outline smooth\" edit=\"info.equipDescription\" style=\"margin-top: 20px; margin-left:20px;\">traverse{info.equipDescription}</span>\n\t\t\t</div>\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">MP Cost </span><div style=\"font-size:8px;\">(if applicable)</div>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.mana\" style=\"margin-top: 20px; margin-left:20px; padding-top:4%; font-size:25px;\">eval{@mana}</span></span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Target</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.target\" style=\"margin-top: 20px; margin-left:20px; padding-top:3%; font-size:55px;\">eval{@target}</span></span>\n\t\t\t\t</div>\n                           <div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Amount</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.stock\" style=\"margin-top: 20px; margin-left:20px; padding-top:3%; font-size:55px;\">eval{@stock}</span></span>\n\t\t\t\t</div>\n\t\t\t</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .panelDeck{\n    border: 5px double #6688FF;\n    border-radius: 25px;\n    background: rgba(255,255,255,.90);\n    margin: 10px;\n\t\tpadding-left: 7px;\n\t\tpadding-right: 7px;\n\t\tpadding-bottom: 4px;\n\t\tpadding-top: 3px;\n  }\n</style>"
+        },
+        "Spell": {
+          "content": "<!--█████████████████████████ Magic █████████████████████████████-->\n<div class='flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n      </div>\n\t\t\t<span class='flexrow' style=\"height:80px; background-color:#000;\"></span>\n    </div>\n    <div class='flexcolumn flex2' style=\"background-image: url('../images/ZeldaAssets/zeldaEmblem.png');  background-repeat: nove; background-size: cover; background-color: #000;\">\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t\t<p>Description:</p>\n\t\t\t\t\t<span class=\"flex outline smooth\" edit=\"info.magicDescription\" style=\"margin-top: 20px; margin-left:20px;\">traverse{info.magicDescription}</span>\n\t\t\t</div>\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Spell Range</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.magicRange\" style=\"margin-top: 20px; margin-left:20px; padding-top:10%; font-size:30px;\">eval{@magicRange}</span></span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\"> MP Cost</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.magicCost\" style=\"margin-top: 20px; margin-left:20px; padding-top:2%; font-size:55px;\">eval{@magicCost}</span></span>\n\t\t\t\t</div>\n\t\t\t</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .panelDeck{\n    border: 5px double #6688FF;\n    border-radius: 25px;\n    background: rgba(255,255,255,.90);\n    margin: 10px;\n\t\tpadding-left: 7px;\n\t\tpadding-right: 7px;\n\t\tpadding-bottom: 4px;\n\t\tpadding-top: 3px;\n  }\n</style>\n"
+        },
+        "Tech": {
+          "content": "<!--█████████████████████████ Technique █████████████████████████████-->\n<div class='flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n      </div>\n\t\t\t<span class='flexrow' style=\"height:80px; background-color:#000;\"></span>\n    </div>\n    <div class='flexcolumn flex2' style=\"background-image: url('../images/ZeldaAssets/zeldaEmblem.png');  background-repeat: nove; background-size: cover; background-color:#000;\">\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t\t<p>Description:</p>\n\t\t\t\t\t<span class=\"flex outline smooth\" edit=\"info.techDescription\" style=\"margin-top: 20px; margin-left:20px;\">traverse{info.techDescription}</span>\n\t\t\t</div>\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Conditional</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.techCond\" style=\"margin-top: 20px; margin-left:20px; padding-top:10%; font-size:25px;\">eval{@techCond}</span></span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\"> SP Cost</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.techSP\" style=\"margin-top: 20px; margin-left:20px; padding-top:2%; font-size:55px;\">eval{@techSP}</span></span>\n\t\t\t\t</div>\n\t\t\t</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .panelDeck{\n    border: 5px double #6688FF;\n    border-radius: 25px;\n    background: rgba(255,255,255,.90);\n    margin: 10px;\n\t\tpadding-left: 7px;\n\t\tpadding-right: 7px;\n\t\tpadding-bottom: 4px;\n\t\tpadding-top: 3px;\n  }\n</style>\n"
+        },
+        "Song": {
+          "content": "<!--█████████████████████████ Song █████████████████████████████-->\n<div class='flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n      </div>\n\t\t\t<span class='flexrow' style=\"height:80px; background-color:#000;\"></span>\n    </div>\n    <div class='flexcolumn flex2' style=\"background-image: url('../images/ZeldaAssets/zeldaEmblem.png');  background-repeat: nove; background-size: cover; background-color: #000;\">\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t\t<p>Effect:</p>\n\t\t\t\t\t<span class=\"flex outline smooth\" edit=\"info.songDescription\" style=\"margin-top: 20px; margin-left:20px;\">traverse{info.songDescription}</span>\n\t\t\t</div>\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Duration</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.songRange\" style=\"margin-top: 20px; margin-left:20px; padding-top:4%; font-size:55px;\">eval{@magicRange}</span></span>\n\t\t\t\t</div>\n\t\t\t</div>\n    </div>\n  </div>\n</div>\n\n\n<style>\n  .panelDeck{\n    border: 5px double #6688FF;\n    border-radius: 25px;\n    background: rgba(255,255,255,.90);\n    margin: 10px;\n\t\tpadding-left: 7px;\n\t\tpadding-right: 7px;\n\t\tpadding-bottom: 4px;\n\t\tpadding-top: 3px;\n  }\n</style>\n"
+        },
+        "Equipment": {
+          "content": "<!--█████████████████████████ Equipment █████████████████████████████-->\n<div class='flex flexcolumn'>\n  <div class='flexrow flex'>\n    <div class='flexcolumn flex'>\n      <input class='middle' target='info.name'/>\n      <div class='flex flexcolumn outline smooth' style='position : relative;'>\n        <ui name='ui_image'/>\n      </div>\n\t\t\t<span class='flexrow' style=\"height:80px; background-color:#000;\"></span>\n    </div>\n    <div class='flexcolumn flex2' style=\"background-image: url('../images/ZeldaAssets/zeldaEmblem.png');  background-repeat: nove; background-size: cover; background-color: #000;\">\n      <div class=\"flexrow panelDeck flex\">\n\t\t\t\t\t<p>Effect:</p>\n\t\t\t\t\t<span class=\"flex outline smooth\" edit=\"info.equipDescription\" style=\"margin-top: 20px; margin-left:20px;\">traverse{info.equipDescription}</span>\n\t\t\t</div>\n      <div class=\"flexrow panelDeck flex\">\n        <div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Range</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.Range\" style=\"margin-top: 20px; margin-left:20px; padding-top:2%; font-size:25px;\">eval{@Range}</span></span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Size</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"info.Size\" style=\"margin-top: 20px; margin-left:20px; padding-top:2%; font-size:25px;\">eval{@Size}</span></span>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"flex flexcolumn\">\n\t\t\t\t\t<span class=\"flexrow outlinebottom spadding\">Damage/Reduction</span>\n\t\t\t\t\t<span class=\"flexrow flex2 spadding\"><span class=\"flex smooth\" edit=\"weapon.Damage\" style=\"margin-top: 20px; margin-left:20px; padding-top:2%; font-size:55px;\">eval{@weapon.Damage.current}</span></span>\n\t\t\t\t</div>\n\t\t\t</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .panelDeck{\n    border: 5px double #6688FF;\n    border-radius: 25px;\n    background: rgba(255,255,255,.90);\n    margin: 10px;\n\t\tpadding-left: 7px;\n\t\tpadding-right: 7px;\n\t\tpadding-bottom: 4px;\n\t\tpadding-top: 3px;\n  }\n</style>"
+        }
+      },
+      "ui": {
+        "ui_poolResults": {
+          "classes": "flexrow flexaround",
+          "dice": {
+            "width": "50px",
+            "height": "50px"
+          },
+          "results": {
+            "style": {
+              "width": "50%",
+              "background-color": "grey"
+            },
+            "display": {
+              "classes": "flexrow flexaround flex",
+              "display": [
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.s-@pool.f)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/success.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.s-@pool.f)"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.f-@pool.s)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/failure.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.f-@pool.s)"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.a-@pool.t)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/advantage.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.a-@pool.t)"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.t-@pool.a)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/threat.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.t-@pool.a)"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "@pool.tri>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/triumph.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+@pool.tri"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "@pool.des>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/despair.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+@pool.des"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.light-@pool.dark)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/lightside.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.light-@pool.dark)"
+                    }
+                  ]
+                },
+                {
+                  "classes": "flexmiddle",
+                  "cond": "(@pool.dark-@pool.light)>0",
+                  "ui": "ui_icon",
+                  "scope": {
+                    "image": "/content/dice/darkside.png"
+                  },
+                  "display": [
+                    {
+                      "style": {
+                        "font-weight": "bold"
+                      },
+                      "value": "'x'+(@pool.dark-@pool.light)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "display": {
+            "classes": "outline lrpadding flexrow flexmiddle flexwrap flex"
+          }
+        }
+      }
+    },
+    "grid": {},
+    "dice": {
+      "defaults": [
+        "d6"
+      ],
+      "modifiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "keys": {
+        "a": {
+          "name": "Advantage",
+          "img": "/content/dice/advantage.png"
+        },
+        "f": {
+          "name": "Failure",
+          "img": "/content/dice/failure.png"
+        },
+        "s": {
+          "name": "Success",
+          "img": "/content/dice/success.png"
+        },
+        "t": {
+          "name": "Threat",
+          "img": "/content/dice/threat.png"
+        },
+        "tri": {
+          "name": "Triumph",
+          "img": "/content/dice/triumph.png"
+        },
+        "des": {
+          "name": "Despair",
+          "img": "/content/dice/despair.png"
+        },
+        "light": {
+          "name": "Light",
+          "img": "/content/dice/lightside.png"
+        },
+        "dark": {
+          "name": "Dark",
+          "img": "/content/dice/darkside.png"
+        },
+        "minus": {
+          "name": "Minus",
+          "img": "/content/dice/minus.png"
+        },
+        "plus": {
+          "name": "Plus",
+          "img": "/content/dice/plus.png"
+        }
+      },
+      "pool": {
+        "d2": {
+          "value": "d2"
+        },
+        "d4": {
+          "value": "d4"
+        },
+        "d5": {
+          "value": "d5"
+        },
+        "d6": {
+          "value": "d6"
+        },
+        "d8": {
+          "value": "d8"
+        },
+        "d10": {
+          "value": "d10"
+        },
+        "d12": {
+          "value": "d12"
+        },
+        "d20": {
+          "value": "d20"
+        },
+        "d100": {
+          "value": "d100"
+        },
+        "proficiency": {
+          "static": true,
+          "value": "d12",
+          "display": {
+            "background-color": "rgb(255,230,0)",
+            "border": "1px solid black",
+            "color": "black"
+          },
+          "results": {
+            "1": {
+              "a": 2
+            },
+            "2": {
+              "a": 1
+            },
+            "3": {
+              "a": 2
+            },
+            "4": {
+              "tri": 1,
+              "s": 1
+            },
+            "5": {
+              "s": 1
+            },
+            "6": {
+              "s": 1,
+              "a": 1
+            },
+            "7": {
+              "s": 1
+            },
+            "8": {
+              "s": 1,
+              "a": 1
+            },
+            "9": {
+              "s": 2
+            },
+            "10": {
+              "s": 1,
+              "a": 1
+            },
+            "11": {
+              "s": 2
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/advantage.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/advantage.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/advantage.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/triumph.png"
+              ]
+            },
+            "5": {
+              "imgs": [
+                "/content/dice/success.png"
+              ]
+            },
+            "6": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "7": {
+              "imgs": [
+                "/content/dice/success.png"
+              ]
+            },
+            "8": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "9": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/success.png"
+              ]
+            },
+            "10": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "11": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/success.png"
+              ]
+            },
+            "12": {
+              "imgs": []
+            }
+          }
+        },
+        "ability": {
+          "static": true,
+          "value": "d8",
+          "display": {
+            "background-color": "rgb(80,185,75)",
+            "border": "1px solid black"
+          },
+          "results": {
+            "1": {
+              "s": 1
+            },
+            "2": {
+              "a": 1
+            },
+            "3": {
+              "s": 1,
+              "a": 1
+            },
+            "4": {
+              "s": 2
+            },
+            "5": {
+              "a": 1
+            },
+            "6": {
+              "s": 1
+            },
+            "7": {
+              "a": 2
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/success.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/advantage.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/success.png"
+              ]
+            },
+            "5": {
+              "imgs": [
+                "/content/dice/advantage.png"
+              ]
+            },
+            "6": {
+              "imgs": [
+                "/content/dice/success.png"
+              ]
+            },
+            "7": {
+              "imgs": [
+                "/content/dice/advantage.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "8": {}
+          }
+        },
+        "boost": {
+          "static": true,
+          "value": "d6",
+          "display": {
+            "background-color": "rgb(135,215,245)",
+            "border": "1px solid black"
+          },
+          "results": {
+            "1": {
+              "s": 1,
+              "a": 1
+            },
+            "2": {
+              "a": 1
+            },
+            "3": {
+              "a": 2
+            },
+            "4": {
+              "s": 1
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/success.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/advantage.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/advantage.png",
+                "/content/dice/advantage.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/success.png"
+              ]
+            },
+            "5": {},
+            "6": {}
+          }
+        },
+        "challenge": {
+          "static": true,
+          "value": "d12",
+          "display": {
+            "background-color": "rgb(230,25,55)",
+            "border": "1px solid black"
+          },
+          "results": {
+            "1": {
+              "t": 2
+            },
+            "2": {
+              "t": 1
+            },
+            "3": {
+              "t": 2
+            },
+            "4": {
+              "t": 1
+            },
+            "5": {
+              "f": 1,
+              "t": 1
+            },
+            "6": {
+              "f": 1
+            },
+            "7": {
+              "f": 1,
+              "t": 1
+            },
+            "8": {
+              "f": 1
+            },
+            "9": {
+              "des": 1,
+              "f": 1
+            },
+            "10": {
+              "f": 2
+            },
+            "11": {
+              "f": 2
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/threat.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/threat.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ]
+            },
+            "5": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "6": {
+              "imgs": [
+                "/content/dice/failure.png"
+              ]
+            },
+            "7": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "8": {
+              "imgs": [
+                "/content/dice/failure.png"
+              ]
+            },
+            "9": {
+              "imgs": [
+                "/content/dice/despair.png"
+              ]
+            },
+            "10": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/failure.png"
+              ]
+            },
+            "11": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/failure.png"
+              ]
+            },
+            "12": {
+              "imgs": []
+            }
+          }
+        },
+        "difficulty": {
+          "static": true,
+          "value": "d8",
+          "display": {
+            "background-color": "rgb(85,35,130)",
+            "border": "1px solid black"
+          },
+          "results": {
+            "1": {
+              "t": 1
+            },
+            "2": {
+              "f": 1
+            },
+            "3": {
+              "f": 1,
+              "t": 1
+            },
+            "4": {
+              "t": 1
+            },
+            "6": {
+              "t": 2
+            },
+            "7": {
+              "f": 2
+            },
+            "8": {
+              "t": 1
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/failure.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ]
+            },
+            "5": {
+              "imgs": []
+            },
+            "6": {
+              "imgs": [
+                "/content/dice/threat.png",
+                "/content/dice/threat.png"
+              ]
+            },
+            "7": {
+              "imgs": [
+                "/content/dice/failure.png",
+                "/content/dice/failure.png"
+              ]
+            },
+            "8": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ]
+            }
+          }
+        },
+        "setback": {
+          "static": true,
+          "value": "d6",
+          "display": {
+            "background-color": "black",
+            "border": "1px solid black"
+          },
+          "results": {
+            "1": {
+              "f": 1
+            },
+            "2": {
+              "f": 1
+            },
+            "3": {
+              "t": 1
+            },
+            "4": {
+              "t": 1
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/failure.png"
+              ],
+              "f": 1
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/failure.png"
+              ],
+              "f": 1
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ],
+              "t": 1
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/threat.png"
+              ],
+              "t": 1
+            },
+            "5": {},
+            "6": {}
+          }
+        },
+        "force": {
+          "static": true,
+          "value": "d12",
+          "display": {
+            "background-color": "white",
+            "border": "1px solid black",
+            "color": "black"
+          },
+          "results": {
+            "1": {
+              "dark": 1
+            },
+            "2": {
+              "light": 2
+            },
+            "3": {
+              "dark": 1
+            },
+            "4": {
+              "light": 2
+            },
+            "5": {
+              "dark": 1
+            },
+            "6": {
+              "light": 2
+            },
+            "7": {
+              "dark": 1
+            },
+            "8": {
+              "light": 1
+            },
+            "9": {
+              "dark": 1
+            },
+            "10": {
+              "light": 1
+            },
+            "11": {
+              "dark": 1
+            },
+            "12": {
+              "dark": 2
+            }
+          },
+          "translations": {
+            "1": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "2": {
+              "imgs": [
+                "/content/dice/lightside.png",
+                "/content/dice/lightside.png"
+              ]
+            },
+            "3": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "4": {
+              "imgs": [
+                "/content/dice/lightside.png",
+                "/content/dice/lightside.png"
+              ]
+            },
+            "5": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "6": {
+              "imgs": [
+                "/content/dice/lightside.png",
+                "/content/dice/lightside.png"
+              ]
+            },
+            "7": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "8": {
+              "imgs": [
+                "/content/dice/lightside.png"
+              ]
+            },
+            "9": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "10": {
+              "imgs": [
+                "/content/dice/lightside.png"
+              ]
+            },
+            "11": {
+              "imgs": [
+                "/content/dice/darkside.png"
+              ]
+            },
+            "12": {
+              "imgs": [
+                "/content/dice/darkside.png",
+                "/content/dice/darkside.png"
+              ]
+            }
+          }
+        },
+        "fate": {
+          "value": "(d3-2)",
+          "results": {
+            "0": {},
+            "1": {
+              "plus": 1
+            },
+            "-1": {
+              "minus": 1
+            }
+          },
+          "translations": {
+            "0": {},
+            "1": {
+              "imgs": [
+                "/content/dice/plus.png"
+              ],
+              "plus": 1
+            },
+            "-1": {
+              "imgs": [
+                "/content/dice/minus.png"
+              ],
+              "minus": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
